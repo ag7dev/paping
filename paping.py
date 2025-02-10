@@ -160,3 +160,4 @@ if __name__ == "__main__":
     print(f"\n{Fore.YELLOW}🚦 Starting connectivity test...{Style.RESET_ALL}")
     paping(host, port, attempts, timeout)
     print(f"\n{Fore.GREEN}{' TEST COMPLETE '.center(60, '★')}{Style.RESET_ALL}\n")
+    input(f"{Fore.YELLOW}🔚 Press Enter to exit...{Style.RESET_ALL}")
